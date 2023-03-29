@@ -1,0 +1,255 @@
+html, body{
+    scroll-behavior: smooth;
+}
+Body{
+    background-color: rgb(178, 125, 228);
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+header.borde{
+    border-bottom: 3px solid #153f61;
+    border-style: solid;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+div.cabecera{
+    float: left;
+}
+li.cabecera{
+    flex-wrap: nowrap;
+    float: left;
+    text-align: center;
+    margin-left: 55px;
+}
+header nav{
+    float: right ;
+    line-height: 105px;
+}
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: #153f61;
+}
+header nav a:hover{
+    background-color: rgba(80, 165, 240, 0.452);
+    border-radius: 10px;
+    opacity: 60%;
+    transition: background-color 0.5s;    
+}
+.inicio{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+ul.cabecera{
+    list-style: none;
+}
+.introduccion {
+    font-size: large;
+    color: #153f61;
+    margin-top: -0.5%;
+}
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: 15px;
+    padding-right: 5px;
+  }
+.flex-item {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin: 5px 0 5px 5px;
+}
+.FotoParaDescarga {
+    height: 50%;
+    width: 50%;
+}
+.FotoLateralIndex {
+    height: 5%;
+}
+
+.armas {
+    width: 150px;
+}
+
+.personaje {
+    margin-right: 50%;
+}
+.theadPersonajes {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+table.TablaPersonajes{
+    border: 10px solid black;
+    border-radius: 10px;
+    border-style: double;
+    background-color: #AFAFAF;
+}
+table.TablaPersonajes td, tr {
+    border: 1px solid gray;
+    text-align: center;
+
+}
+table.TablaPersonajes thead {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+.estrellas {
+    margin-left: -10px;
+    width: 30px;
+}
+.Rareza4e {
+    background-color: #A471BC;
+}
+.Rareza5e {
+    background-color: #B0742E;
+}
+.Aloy {
+    background-color: #A9455D;
+}
+td.Icono img {
+    padding: 20px;
+    width: 130px;
+}
+.FotoRegionPersonaje {
+    width: 130px;
+}
+.BordeRadius {
+    border-radius: 20px;
+}
+.Elemento {
+    width: 130px;
+}
+.Disclaimer {
+    float: right;
+    font-size: large;
+    margin-right: 3%;
+}
+.sidebar {
+    background-color: skyblue;
+    height: 750px;
+    width: 50px;
+    transition: 1s;
+}
+.sidebar:hover {
+    background-color: skyblue;
+    height: 750px;
+    width: 200px;
+}
+.casa {
+    width: 50px;
+}
+.ancla {
+    margin-left: 82%;
+    color: black;
+    text-decoration: none;
+}
+.navegacion {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: fixed;
+    width: 2rem;
+    height: 100%;
+    background-color: rgba(121, 128, 134, 0.452);
+    transition: 0.5s;
+    padding: 3rem;
+    overflow: hidden;
+}
+.navegacion:hover {
+    width: 20rem;
+}
+.navegacion ul {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.navegacion ul li {
+    width: 100%;
+    list-style: none;
+}
+.li_barra_lateral:hover {
+    background: blue;
+    align-items: center;
+}
+.navegacion ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navegacion ul li a .icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 6rem;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    padding-left: 1rem;
+}
+.fotito {
+    width: 50px;
+}
+.footer {
+    height: 400px;
+    width: 80%;
+}
+.hr {
+    height: 10px;
+    background-color: black;
+}
+.foto_pocoyo {
+    width: 35%;
+}
+.fotoFooterLogo {
+    width: 200px;
+    float: left;
+    margin-top: 200px;
+}
+.fotoFooterYoutube {
+    margin-right: 60%;
+    width: 200px;
+    margin-top: 150px;
+}
+.cuarto {
+    float: right;
+    margin-top: -100px;
+}
